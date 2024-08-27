@@ -1,0 +1,26 @@
+{
+	"name": "server-practice",
+	"version": "1.0.0",
+	"description": "A simple application for user registration and post creation.",
+	"main": "index.js",
+	"scripts": {
+		"start-server": "nodemon server/index.js",
+		"start-client-player": "live-server ./client-player --port=3000",
+		"start-client-results": "live-server ./client-results-screen --port=3005"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"express": "^4.19.2",
+		"jsonwebtoken": "^9.0.2",
+		"live-server": "^1.2.2",
+		"mongoose": "^8.5.4"
+	}
+}
